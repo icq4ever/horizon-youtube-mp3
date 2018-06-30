@@ -12,14 +12,22 @@
     "info": "node examples/videoinfo",
     "app": "node examples/downloadmp3",
     "server": "node examples/serverdownloadmp3",
-    "test": "eslint lib/**"
+    "test": "eslint lib/**",
+    "start" : "node ./app.js"
   },
   "dependencies": {
     "console-log-level": "^1.4.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
     "fluent-ffmpeg": "^2.1.2",
-    "hh-mm-ss": "^1.1.0",
+    "hh-mm-ss": "^1.2.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
     "node-ffprobe": "^1.2.2",
-    "remove-accents": "^0.4.0",
+    "pug": "^2.0.3",
+    "remove-accents": "^0.4.2",
     "shortid": "^2.1.3",
     "ytdl-core": "^0.20.4"
   },
@@ -38,6 +46,6 @@
     "url": "https://github.com/Wpdas/horizon-youtube-mp3"
   },
   "devDependencies": {
-    "eslint": "^4.7.0"
+    "eslint": "^4.19.1"
   }
 }
